@@ -1,4 +1,4 @@
-// Creating an object My Truck
+                        // Creating an Object using My Truck as example
 var vehicle = {
     make: "Dodge Ram",
     model: "1500 Tradesman ",
@@ -9,7 +9,7 @@ var vehicle = {
     }
 };
 
-// properties of the object
+// console properties of the object
 console.log("Make:", vehicle.make); // Output: Dodge Ram
 console.log("Model:", vehicle["model"]); // Output: 1500 Tradesman
 console.log("Year:", vehicle.year); // Output: 2016
@@ -20,7 +20,7 @@ console.log("Full Name:", vehicle.fullName()); // Output: Dodge Ram 1500 Tradesm
 
 
 
-// Dodge Ram 1500 Tradesman object
+                             // Dodge Ram 1500 Tradesman object with a method
 var dodgeRam1500Tradesman = {
     // Properties
     make: "Dodge",
@@ -57,4 +57,33 @@ console.log(dodgeRam1500Tradesman.drive(50));
 console.log(dodgeRam1500Tradesman.drive(25));
 console.log(dodgeRam1500Tradesman.stopEngine());
 
+
+
+                                   // An Array of guitar makes and models
+                              
+const guitars = [
+    { make: 'Gibson', model: 'Les Paul Standard' },
+    { make: 'Gibson', model: 'SG Standard' },
+    { make: 'Gibson', model: 'Flying V' },
+    { make: 'Fender', model: 'Stratocaster' },
+    { make: 'Fender', model: 'Telecaster' },
+    { make: 'Fender', model: 'Jazzmaster' },
+    { make: 'Reverend', model: 'Sensei' },
+    { make: 'Reverend', model: 'Double Agent' },
+    { make: 'Reverend', model: 'Jetstream' },
+    { make: 'Ibanez', model: 'RG550' },
+    { make: 'Ibanez', model: 'JEM7V' },
+    { make: 'Ibanez', model: 'Artcore AS73' }
+  ];
+  
+  // Printing the list of guitars
+  guitars.forEach(guitar => {
+      console.log(`${guitar.make} ${guitar.model}`);
+      
+  });
+
+
+                                              // An Array of guitar makes and models with method
+                                                  
+  
 
